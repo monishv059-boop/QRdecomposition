@@ -7,6 +7,10 @@ To implement QR decomposition algorithm using the Gram-Schmidt method.
 ## Algorithm:
 1.	Intialize the matrix Q and u
 2.	The vector u and e is given by
+3.	Normalize each orthogonal vector to obtain the orthonormal vector e
+4.  Store the orthonormal vectors as columns of matrix Q.
+
+Step 4:
 
     ![eqn1](./ex4.jpg)
 
@@ -14,9 +18,9 @@ To implement QR decomposition algorithm using the Gram-Schmidt method.
 
     ![eqn3](./ex3.jpg)
 
-3.	Obtain the Q matrix   
+4.	Obtain the Q matrix   
     ![eqn4](./ex1.jpg)
-4.	Construct the upper triangular matrix R
+5.	Construct the upper triangular matrix R
     ![eqn5](./ex2.jpg)
 
 
